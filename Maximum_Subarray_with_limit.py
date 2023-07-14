@@ -4,8 +4,8 @@ You are given an integer array C of size A. Now you need to find a subarray (con
 class Solution:
     """
     Approach : Calculate  current sum ,find the maximum Subarray sum
-    if it goes maximum subtract the array element from beginning to ensure contigous sum
-    Note:stop  sum when it exceeds B
+    if it goes maximum subtract the array element from beginning ,To ensure contigous sum
+    
     """
     @staticmethod
     def Maximum_Subarray(array, B):
